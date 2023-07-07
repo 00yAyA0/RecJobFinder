@@ -102,15 +102,18 @@ DATABASES = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mssql',
-        'HOST': 'ISLEM',  # Replace with your server address
-        'NAME': 'job_finder',  # Replace with your database name
-        'Trusted_Connection': 'yes',
+        'ENGINE': 'sql_server.pyodbc',
+        'HOST': 'mydataapp.database.windows.net',
+        'NAME': 'job_finder',
+        'USER': 'CloudSA3a9f6cc9',
         'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
+            'driver': 'ODBC Driver 18 for SQL Server',
+            'encrypt': 'yes',
+            'trust_server_certificate': 'no',
         },
     },
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
