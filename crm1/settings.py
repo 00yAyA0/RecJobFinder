@@ -103,9 +103,11 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'HOST': 'mydataapp.database.windows.net',
+        'HOST': 'sqlserverjobfinder.database.windows.net',
+        'PORT' : '1433',
         'NAME': 'job_finder',
-        'USER': 'CloudSA3a9f6cc9',
+        'USER': 'sqluserazure',
+        'PASSWORD' : 'azerty123_',
         'OPTIONS': {
             'driver': 'ODBC Driver 18 for SQL Server',
             'encrypt': 'yes',
