@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'crmjob'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_99D002882853436983AA3163876C4E12 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8060239742A64C1FACC7593C60B8A492 }}
