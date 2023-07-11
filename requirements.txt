@@ -3,7 +3,7 @@ django-storages==1.12.3
 django-mssql-backend==2.8.1
 nltk==3.8.1
 numpy==1.23.1
-opencv_python==4.6.0.66
+opencv_python==4.5.5.62
 opencv_python_headless==4.5.4.60
 pandas==1.4.3
 pdf2image==1.16.3
